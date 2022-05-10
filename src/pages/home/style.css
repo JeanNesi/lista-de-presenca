@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  margin: 24px 100px;
+}
+
+.container header{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.container h1{
+text-align: center;
+}
+
+.container input{
+  width: 50%;
+  padding: 24px;
+
+  background: #e6e6e6;
+  border-radius: 5px;
+  border: none;
+
+  font-size: 16px;
+}
+
+.container button{
+  width: 50%;
+  padding: 24px;
+  margin-bottom: 20px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #119ad1;
+
+  cursor: pointer;
+  transition: filter 0.3s
+}
+
+.container button:hover {
+  filter: brightness(0.7);
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.perfil img{
+  width: 60px;
+  border-radius: 60px;
+}
